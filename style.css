@@ -188,6 +188,9 @@ Media Query for low resolution  Tablets, Ipads
 	.any {
 		flex-direction: column;
 	}
+	.header nav-items .nav-2 {
+		justify-content: left;
+	}
 }
 
 /* Media Query for Large screens
@@ -196,3 +199,114 @@ Media Query for low resolution  Tablets, Ipads
 		background-color: white;
 	}
 }  */
+.lastpg {
+	text-align: center;
+	padding-top: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-lastpg {
+	padding: 0 165px;
+}
+.lastpg {
+	background-image: url(./assets/image/Rectangle.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	/* width: 2546.93px;
+	height: 983px;
+	 top: 3607.39px;
+	left: -620.29px; */
+}
+.button-primary2 {
+	align-items: center;
+	width: 189px;
+	height: 32px;
+	background-color: #111b47;
+	color: aliceblue;
+	margin-bottom: 173px;
+}
+.hero-lastpgh1 {
+	margin-top: 35.82px;
+	align-items: center;
+}
+.hero-sos {
+	margin-top: 60px;
+}
+.hero-pg1 {
+	margin-top: 16px;
+}
+footer {
+	padding: 0 60px;
+}
+.fan-ke {
+	/* text-align: center; */
+	display: flex;
+	/* width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 12px; */
+}
+ul {
+	list-style-type: none;
+}
+
+.fan-ke-flex {
+	font-style: roboto;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #505f98;
+	display: flex;
+	align-items: center;
+}
+/* .fan-ke nav-2 {
+	font-style: Roboto;
+	font-size: 26px;
+	font-weight: 900;
+	color: #37447e;
+	line-height: 38 px;
+} */
+
+.fan-button button:active {
+	scale: 2;
+}
+.fan-items {
+	font-style: roboto;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #505f98;
+	display: flex;
+	align-items: center;
+}
+.fan-top {
+	text-align: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+}
+.fan-top nav-2 {
+	justify-content: center;
+	font-style: Roboto;
+	font-size: 26px;
+	font-weight: 900;
+	color: #37447e;
+	line-height: 38 px;
+}
+.fan-ke-flex {
+	width: 100%;
+}
+
+.socialicons {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	gap: 20px;
+}
+.list {
+	padding: 0 60px;
+}
